@@ -4,7 +4,8 @@ from .models import Event
 
 class EventSerializer(serializers.ModelSerializer):
     event_date = serializers.DateField(format="%m-%d-%Y")
+    id = serializers.ReadOnlyField()
 
     class Meta:
-        fields = ("image", "name", "description", "event_date", "website", "tag",)
+        fields = ("id", "image", "name", "description", "event_date", "website", "tag",)
         model = Event
