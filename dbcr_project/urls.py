@@ -24,5 +24,6 @@ urlpatterns = [
     path('api/requests/v1/', include('transcript_requests.urls')),
     path('api/infoupdates/v1/', include('infoupdate.urls')),
     path('api/articlehighlights/v1', include('article_highlights.urls')),
+    path('api/careerhighlights/v1', include('career_highlights.urls')),
     path('api-auth/', include('rest_framework.urls')),
 ]

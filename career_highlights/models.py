@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class ArticleHighlight(models.Model):
+class CareerHighlight(models.Model):
 
     image = models.ImageField(default='default.jpg', upload_to='pics')
     name = models.CharField(max_length=50)

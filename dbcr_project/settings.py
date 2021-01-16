@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'transcript_requests.apps.TranscriptRequestsConfig',
     'infoupdate.apps.InfoupdateConfig',
     'article_highlights.apps.ArticleHighlightsConfig',
+    'career_highlights.apps.CareerHighlightsConfig',
 ]
 
 MIDDLEWARE = [
